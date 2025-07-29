@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Reflection;
 
 namespace KebabGGbab.Extensions.Primitives
 {
@@ -16,9 +17,7 @@ namespace KebabGGbab.Extensions.Primitives
 			return field
 				.GetType()
 				.GetField(field.ToString())
-				?.GetCustomAttributes(false)
-				.OfType<DisplayAttribute>()
-				.FirstOrDefault()
+				?.GetCustomAttribute<DisplayAttribute>()
 				?.Name;
 		}
 	}
