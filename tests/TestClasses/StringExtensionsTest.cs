@@ -1,4 +1,4 @@
-﻿namespace KebabGGbab.Extensions.Primitives.Tests.TestClasses
+﻿namespace KebabGGbab.Primitives.Extensions.Tests.TestClasses
 {
 	[TestClass]
 	public sealed class StringExtensionsTest

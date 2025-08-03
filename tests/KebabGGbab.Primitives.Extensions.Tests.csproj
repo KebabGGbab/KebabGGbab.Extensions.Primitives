@@ -9,10 +9,6 @@
     <TestingExtensionsProfile>None</TestingExtensionsProfile>
   </PropertyGroup>
 
-	<PropertyGroup>
-		<RootNamespace>KebabGGbab.Extensions.Primitives.Tests</RootNamespace>
-	</PropertyGroup>
-
 	<ItemGroup>
 	  <Reference Include="KebabGGbab.Primitives.Extensions">
 	    <HintPath>..\src\bin\Debug\net9.0\KebabGGbab.Primitives.Extensions.dll</HintPath>

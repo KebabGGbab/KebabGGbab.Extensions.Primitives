@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-namespace KebabGGbab.Extensions.Primitives
+namespace KebabGGbab.Primitives.Extensions
 {
 	public static class EnumExtensions
 	{

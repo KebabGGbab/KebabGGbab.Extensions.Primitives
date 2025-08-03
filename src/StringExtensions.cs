@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace KebabGGbab.Extensions.Primitives
+namespace KebabGGbab.Primitives.Extensions
 {
     public static class StringExtensions
     {
